@@ -2,8 +2,8 @@ async function data(){
     
     try{
     let url="https://api.fda.gov/drug/event.json?limit=10"
-    let fet=await fetch(url)
-    let jso=await fet.json()
+    let fet= await fetch(url)
+    let jso= await fet.json()
 
 
   for(var j =1;j<10;j++){  
@@ -41,7 +41,7 @@ for(var i = 0;i<datas.length;i++){
     
 catch(e){
 console.log(e)
-document.querySelector("body").innerText("this api is not valid")
+console.log("this api is not valid")
 
     }
 }
