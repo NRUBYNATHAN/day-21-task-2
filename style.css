@@ -1,0 +1,33 @@
+body{
+    background-image: url("drug.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.topic{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(199, 241, 241);
+    height: 100px;
+    color: rgb(10, 10, 10);
+}
+.table{
+    margin-top: 100px;
+    font-size: 20px;
+    background-image: url("drug1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+   
+thead{
+    color:white
+} 
+tbody tr{
+    
+    border: 3px solid rgb(188, 244, 5);
+    color:rgb(253, 251, 251)
+}
